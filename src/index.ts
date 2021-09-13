@@ -1,8 +1,11 @@
 import app from './app';
+import config from './lib/config';
+import logger from './lib/logger';
+logger.child({ file: 'app' });
 
-const PORT = 8000;
-const NODE_ENV = 'dev';
+const PORT = 8080;
+const NODE_ENV = config.get('env');
 
 app.listen(PORT, () => {
-  console.log(`Server listening on port ${PORT}, ${NODE_ENV}`);
+  logger.info(`Server listening on port ${PORT}, ${NODE_ENV}`);
 });
