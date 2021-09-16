@@ -20,8 +20,11 @@
   "dependencies": {
     "@types/bunyan": "^1.8.7",
     "@types/convict": "^6.1.1",
+    "@types/cors": "^2.8.12",
     "bunyan": "^1.8.15",
     "convict": "^5.2.1",
-    "dotenv": "^10.0.0"
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "mongoose": "^6.0.5"
   }
 }
