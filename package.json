@@ -21,10 +21,14 @@
     "@types/bunyan": "^1.8.7",
     "@types/convict": "^6.1.1",
     "@types/cors": "^2.8.12",
+    "@types/lodash": "^4.14.172",
+    "@types/shortid": "^0.0.29",
     "bunyan": "^1.8.15",
     "convict": "^5.2.1",
     "cors": "^2.8.5",
     "dotenv": "^10.0.0",
-    "mongoose": "^6.0.5"
+    "lodash": "^4.17.21",
+    "mongoose": "^6.0.5",
+    "shortid": "^2.2.16"
   }
 }
